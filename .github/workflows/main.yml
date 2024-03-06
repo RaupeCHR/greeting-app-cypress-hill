@@ -25,5 +25,5 @@ jobs:
         with:
           start: npm start
           wait-on: 'http://localhost:3001'
-          wait-on-timeout: 10 & npx run test
+          wait-on-timeout: 60 & npx run test
           
