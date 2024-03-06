@@ -6,4 +6,4 @@ function submitName() {
   function updateUI(message) {
     document.getElementById('greetingMessage').innerText = message;
   }
-  module.exports = { submitName, updateUI };
+  //module.exports = { submitName, updateUI };
