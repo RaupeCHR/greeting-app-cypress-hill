@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Run Cypress Tests
-        run: npm start ,sleep 30 , npm test
+        run: npm start & ,sleep 30 ,& npm test
 
 
       
